@@ -75,8 +75,8 @@
     - API란? - 애플리케이션 프로그래밍 인터페이스를 뜻하는데, 이는 인터페이스로 프로그래밍한 프로그램이라고 한다. 인터페이스는 상하관계가 존재하는 약속이라는 개념을 가지고 있으며, 이와 상반되는 건 프로토콜 개념이다. 프로토콜은 상하관계 없이 권리가 동등하다.
 
 ## 5강 스프링 개념 정리
-### ORM 기술
-ORM(Object Relational Mapping) → 데이터베이스에 연결하는 방공용
+### ORM이란 무엇인가요?
+ORM(Object Relational Mapping)
 <br><br>1. Class를 만들 때 model class라는 것이 있음, 모델링이란 추상적인 개념이며 현실세계를 뽑아 내는 것이다
   - 기본적으로 데이터베이스의 테이블과 자바의 class는 타입이 다르기 때문에 모델링을 해 줘야 한다. DB 세상에 있는 데이터를 JAVA 세상에 모델링을 하는 것을 TRM(Table Relational Mapping)이라고 하며, 이것이 역전된 게 ORM(Object Relational Mapping)이다. 즉, JAVA 세상에 있는 데이터를 DB로 전송할 때 데이터 타입을 바꿔 주는 것이다.
   - JAVA에서 Class를 먼저 만든 후 데이터베이스에 자동 생성을 하려면 JPA의 인터페이스가 필요하다.
