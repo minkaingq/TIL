@@ -89,4 +89,5 @@ ORM(Object Relational Mapping) → 데이터베이스에 연결하는 방공용
 <BR>
 
         - 자바에서 DB로 Connection 요청 → DB가 Session 오픈 → 자바는 Connection 가짐 → Query 전송 가능 → Query 전송시 데이터 응답 → 데이터 타입과 자바의 Object 타입이 다르기 때문에 타입 변경해 줘야 함 
+<br>
     - 해당하는 단순한 반복 로직을 줄여 주는 것이 JPA이다. 즉, 전송된 Query에 대한 응답이 있을 때 데이터를 JAVA Object 타입으로 바꿔 주고 Connection을 끊는 단순한 반복 작업을 줄여 주는 것이다.
